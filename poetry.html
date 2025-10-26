@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Poetry Books - Hayat Book Store</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: linear-gradient(to right, #fff0f5, #f0e6fa);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #8E44AD;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .book-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      padding: 40px;
+    }
+
+    .book {
+      background-color: #fdf6ff;
+      border-left: 6px solid #BA55D3;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .book:hover {
+      transform: translateY(-5px);
+    }
+
+    .book h3 {
+      margin-top: 0;
+      color: #6A1B9A;
+    }
+
+    .book p {
+      margin: 6px 0;
+      font-size: 15px;
+      color: #4A235A;
+    }
+
+    .book .price {
+      font-weight: bold;
+      color: #AF7AC5;
+    }
+
+    footer {
+      background-color: #8E44AD;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    a.back-link {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #6A1B9A;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Poetry Books</h1>
+    <p>Immerse in rhythm, words, and soul-touching verses.</p>
+  </header>
+
+  <div class="book-grid">
+    <div class="book">
+      <h3>Milk and Honey</h3>
+      <p>Author: Rupi Kaur</p>
+      <p>Emotional poetry about love, loss, trauma, and healing.</p>
+      <p class="price">Price: ₹250</p>
+    </div>
+    <div class="book">
+      <h3>Leaves of Grass</h3>
+      <p>Author: Walt Whitman</p>
+      <p>Celebrates nature, individuality, and the American spirit.</p>
+      <p class="price">Price: ₹350</p>
+    </div>
+    <div class="book">
+      <h3>The Sun and Her Flowers</h3>
+      <p>Author: Rupi Kaur</p>
+      <p>Poems on growth, love, and self-empowerment.</p>
+      <p class="price">Price: ₹270</p>
+    </div>
+    <div class="book">
+      <h3>Ariel</h3>
+      <p>Author: Sylvia Plath</p>
+      <p>Powerful poems written during the final months of her life.</p>
+      <p class="price">Price: ₹320</p>
+    </div>
+    <div class="book">
+      <h3>The Prophet</h3>
+      <p>Author: Kahlil Gibran</p>
+      <p>Philosophical poems on love, life, and human nature.</p>
+      <p class="price">Price: ₹210</p>
+    </div>
+    <div class="book">
+      <h3>The Essential Rumi</h3>
+      <p>Author: Rumi (trans. Coleman Barks)</p>
+      <p>Timeless mystical poetry from the 13th-century Sufi poet.</p>
+      <p class="price">Price: ₹410</p>
+    </div>
+    <div class="book">
+      <h3>Selected Poems</h3>
+      <p>Author: Emily Dickinson</p>
+      <p>Introspective poetry that explores death and immortality.</p>
+      <p class="price">Price: ₹260</p>
+    </div>
+    <div class="book">
+      <h3>Where the Sidewalk Ends</h3>
+      <p>Author: Shel Silverstein</p>
+      <p>Whimsical poetry and drawings loved by all ages.</p>
+      <p class="price">Price: ₹280</p>
+    </div>
+    <div class="book">
+      <h3>Twenty Love Poems</h3>
+      <p>Author: Pablo Neruda</p>
+      <p>Iconic romantic poems by the Nobel Prize-winning Chilean poet.</p>
+      <p class="price">Price: ₹290</p>
+    </div>
+    <div class="book">
+      <h3>The Waste Land</h3>
+      <p>Author: T.S. Eliot</p>
+      <p>One of the most influential modernist poems of the 20th century.</p>
+      <p class="price">Price: ₹230</p>
+    </div>
+    <div class="book">
+      <h3>Devotions</h3>
+      <p>Author: Mary Oliver</p>
+      <p>Poetry about nature and the wonder of everyday life.</p>
+      <p class="price">Price: ₹320</p>
+    </div>
+    <div class="book">
+      <h3>The Collected Poems</h3>
+      <p>Author: W.B. Yeats</p>
+      <p>Encompasses all of Yeats’ lyrical, symbolic verse.</p>
+      <p class="price">Price: ₹400</p>
+    </div>
+    <div class="book">
+      <h3>Howl and Other Poems</h3>
+      <p>Author: Allen Ginsberg</p>
+      <p>Groundbreaking poems of rebellion and personal freedom.</p>
+      <p class="price">Price: ₹310</p>
+    </div>
+    <div class="book">
+      <h3>Poems by Rabindranath Tagore</h3>
+      <p>Author: Rabindranath Tagore</p>
+      <p>Nobel laureate's poems of love, nature, and divine connection.</p>
+      <p class="price">Price: ₹270</p>
+    </div>
+    <div class="book">
+      <h3>A Thousand Mornings</h3>
+      <p>Author: Mary Oliver</p>
+      <p>Contemplative poems celebrating the small joys of life.</p>
+      <p class="price">Price: ₹280</p>
+    </div>
+    <div class="book">
+      <h3>Blue Horses</h3>
+      <p>Author: Mary Oliver</p>
+      <p>Elegant poetry that blends spirituality with simplicity.</p>
+      <p class="price">Price: ₹250</p>
+    </div>
+    <div class="book">
+      <h3>Book of Longing</h3>
+      <p>Author: Leonard Cohen</p>
+      <p>Lyrics and poetry by the legendary musician and writer.</p>
+      <p class="price">Price: ₹330</p>
+    </div>
+  </div>
+
+  <a href="index.html" class="back-link">⬅ Back to Home</a>
+
+  <footer>
+    <p>Contact: 9876543210 | Email: hayat2025@gmail.com</p>
+    <p>&copy; 2025 Hayat Book Store. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
