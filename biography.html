@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Biography Books - Hayat Book Store</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #e6f0ff, #f2fcff);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2E86C1;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 36px;
+    }
+
+    .book-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .book {
+      background-color: white;
+      border-left: 5px solid #2980B9;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .book:hover {
+      transform: scale(1.03);
+    }
+
+    .book h3 {
+      margin: 0 0 10px;
+      color: #1B4F72;
+    }
+
+    .book p {
+      margin: 5px 0;
+      font-size: 14px;
+      color: #34495E;
+    }
+
+    .book .price {
+      font-weight: bold;
+      color: #2874A6;
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #2E86C1;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    a.back-link {
+      display: block;
+      text-align: center;
+      margin: 20px 0;
+      text-decoration: none;
+      font-weight: bold;
+      color: #2874A6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Biography Books</h1>
+    <p>Explore inspiring lives that shaped the world.</p>
+  </header>
+
+  <div class="book-grid">
+    <div class="book">
+      <h3>The Diary of a Young Girl</h3>
+      <p>Author: Anne Frank</p>
+      <p>A moving account of a young Jewish girl hiding during WWII.</p>
+      <p class="price">Price: ₹299</p>
+    </div>
+    <div class="book">
+      <h3>Long Walk to Freedom</h3>
+      <p>Author: Nelson Mandela</p>
+      <p>Autobiography of the South African leader’s struggle for justice.</p>
+      <p class="price">Price: ₹450</p>
+    </div>
+    <div class="book">
+      <h3>Becoming</h3>
+      <p>Author: Michelle Obama</p>
+      <p>A deeply personal memoir from the former First Lady of the US.</p>
+      <p class="price">Price: ₹499</p>
+    </div>
+    <div class="book">
+      <h3>Steve Jobs</h3>
+      <p>Author: Walter Isaacson</p>
+      <p>An in-depth biography of the Apple co-founder and innovator.</p>
+      <p class="price">Price: ₹520</p>
+    </div>
+    <div class="book">
+      <h3>Educated</h3>
+      <p>Author: Tara Westover</p>
+      <p>A woman escapes her survivalist family and earns a PhD.</p>
+      <p class="price">Price: ₹380</p>
+    </div>
+    <div class="book">
+      <h3>I Am Malala</h3>
+      <p>Author: Malala Yousafzai</p>
+      <p>A story of bravery from a Pakistani girl who stood up for education.</p>
+      <p class="price">Price: ₹310</p>
+    </div>
+    <div class="book">
+      <h3>The Story of My Experiments with Truth</h3>
+      <p>Author: Mahatma Gandhi</p>
+      <p>The life journey and values of India’s Father of the Nation.</p>
+      <p class="price">Price: ₹250</p>
+    </div>
+    <div class="book">
+      <h3>Wings of Fire</h3>
+      <p>Author: A.P.J. Abdul Kalam</p>
+      <p>Autobiography of India’s missile man and beloved president.</p>
+      <p class="price">Price: ₹270</p>
+    </div>
+    <div class="book">
+      <h3>The Wright Brothers</h3>
+      <p>Author: David McCullough</p>
+      <p>How two brothers created the world’s first successful airplane.</p>
+      <p class="price">Price: ₹420</p>
+    </div>
+    <div class="book">
+      <h3>Einstein: His Life and Universe</h3>
+      <p>Author: Walter Isaacson</p>
+      <p>A portrait of the genius behind the theory of relativity.</p>
+      <p class="price">Price: ₹510</p>
+    </div>
+    <div class="book">
+      <h3>The Glass Castle</h3>
+      <p>Author: Jeannette Walls</p>
+      <p>A memoir of a dysfunctional yet colorful upbringing.</p>
+      <p class="price">Price: ₹330</p>
+    </div>
+    <div class="book">
+      <h3>A Beautiful Mind</h3>
+      <p>Author: Sylvia Nasar</p>
+      <p>The story of mathematician John Nash and his mental illness.</p>
+      <p class="price">Price: ₹360</p>
+    </div>
+    <div class="book">
+      <h3>The Autobiography of Benjamin Franklin</h3>
+      <p>Author: Benjamin Franklin</p>
+      <p>Life lessons from a founding father and inventor.</p>
+      <p class="price">Price: ₹240</p>
+    </div>
+    <div class="book">
+      <h3>Open</h3>
+      <p>Author: Andre Agassi</p>
+      <p>An honest and emotional memoir of a tennis legend.</p>
+      <p class="price">Price: ₹400</p>
+    </div>
+    <div class="book">
+      <h3>My Life</h3>
+      <p>Author: Bill Clinton</p>
+      <p>A comprehensive memoir of the 42nd U.S. President.</p>
+      <p class="price">Price: ₹390</p>
+    </div>
+    <div class="book">
+      <h3>Bossypants</h3>
+      <p>Author: Tina Fey</p>
+      <p>Comedic memoir from one of America’s funniest women.</p>
+      <p class="price">Price: ₹310</p>
+    </div>
+    <div class="book">
+      <h3>On Writing</h3>
+      <p>Author: Stephen King</p>
+      <p>A blend of memoir and masterclass by a prolific author.</p>
+      <p class="price">Price: ₹295</p>
+    </div>
+  </div>
+
+  <a href="index.html" class="back-link">⬅ Back to Home</a>
+
+  <footer>
+    <p>Contact: 9876543210 | Email: hayat2025@gmail.com</p>
+    <p>&copy; 2025 Hayat Book Store. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
