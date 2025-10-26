@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kids Books - Hayat Book Store</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #FF69B4;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .book-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      padding: 40px;
+    }
+
+    .book {
+      background-color: #fff0f5;
+      border: 3px dashed #ff69b4;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .book:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .book h3 {
+      margin-top: 0;
+      color: #ff1493;
+    }
+
+    .book p {
+      margin: 6px 0;
+      font-size: 15px;
+      color: #333;
+    }
+
+    .book .price {
+      font-weight: bold;
+      color: #d63384;
+    }
+
+    footer {
+      background-color: #FF69B4;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    a.back-link {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #ff1493;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kids Books</h1>
+    <p>Fun, colorful, and educational reads for young minds.</p>
+  </header>
+
+  <div class="book-grid">
+    <div class="book">
+      <h3>Peppa Pig: Bedtime Stories</h3>
+      <p>Author: Neville Astley</p>
+      <p>Charming bedtime adventures with Peppa Pig.</p>
+      <p class="price">Price: ₹150</p>
+    </div>
+    <div class="book">
+      <h3>The Very Hungry Caterpillar</h3>
+      <p>Author: Eric Carle</p>
+      <p>Classic story of a caterpillar’s transformation.</p>
+      <p class="price">Price: ₹200</p>
+    </div>
+    <div class="book">
+      <h3>Chacha Chaudhary</h3>
+      <p>Author: Pran Kumar Sharma</p>
+      <p>Fun comic adventures of the brainy Indian hero.</p>
+      <p class="price">Price: ₹180</p>
+    </div>
+    <div class="book">
+      <h3>Dora the Explorer</h3>
+      <p>Author: Chris Gifford</p>
+      <p>Interactive journeys with Dora and her friends.</p>
+      <p class="price">Price: ₹160</p>
+    </div>
+    <div class="book">
+      <h3>Amar Chitra Katha - Stories of Krishna</h3>
+      <p>Author: Anant Pai</p>
+      <p>Colorful comics on the life of Lord Krishna.</p>
+      <p class="price">Price: ₹190</p>
+    </div>
+    <div class="book">
+      <h3>Diary of a Wimpy Kid</h3>
+      <p>Author: Jeff Kinney</p>
+      <p>Hilarious journey of Greg in middle school life.</p>
+      <p class="price">Price: ₹270</p>
+    </div>
+    <div class="book">
+      <h3>The Cat in the Hat</h3>
+      <p>Author: Dr. Seuss</p>
+      <p>Whimsical rhymes and silly antics for kids.</p>
+      <p class="price">Price: ₹220</p>
+    </div>
+    <div class="book">
+      <h3>My First ABC Book</h3>
+      <p>Author: Scholastic</p>
+      <p>Colorful alphabets and illustrations for early learners.</p>
+      <p class="price">Price: ₹130</p>
+    </div>
+    <div class="book">
+      <h3>Winnie the Pooh</h3>
+      <p>Author: A.A. Milne</p>
+      <p>Adventures of Pooh and his woodland friends.</p>
+      <p class="price">Price: ₹250</p>
+    </div>
+    <div class="book">
+      <h3>Magic Tree House</h3>
+      <p>Author: Mary Pope Osborne</p>
+      <p>Time-traveling kids explore history and magic.</p>
+      <p class="price">Price: ₹260</p>
+    </div>
+    <div class="book">
+      <h3>Geronimo Stilton</h3>
+      <p>Author: Elisabetta Dami</p>
+      <p>Funny mouse reporter’s wild adventures.</p>
+      <p class="price">Price: ₹280</p>
+    </div>
+    <div class="book">
+      <h3>Cinderella</h3>
+      <p>Author: Brothers Grimm</p>
+      <p>A timeless fairy tale of dreams and magic.</p>
+      <p class="price">Price: ₹210</p>
+    </div>
+    <div class="book">
+      <h3>The Jungle Book</h3>
+      <p>Author: Rudyard Kipling</p>
+      <p>Mowgli’s journey in the heart of the jungle.</p>
+      <p class="price">Price: ₹300</p>
+    </div>
+    <div class="book">
+      <h3>Tenali Raman Stories</h3>
+      <p>Author: C. L. L. Jayaprada</p>
+      <p>Witty stories from the court of King Krishnadevaraya.</p>
+      <p class="price">Price: ₹200</p>
+    </div>
+    <div class="book">
+      <h3>Panchatantra Tales</h3>
+      <p>Author: Vishnu Sharma</p>
+      <p>Ancient animal fables with moral values.</p>
+      <p class="price">Price: ₹230</p>
+    </div>
+    <div class="book">
+      <h3>Charlie and the Chocolate Factory</h3>
+      <p>Author: Roald Dahl</p>
+      <p>Magical world of Willy Wonka and chocolate dreams.</p>
+      <p class="price">Price: ₹290</p>
+    </div>
+  </div>
+
+  <a href="index.html" class="back-link">⬅ Back to Home</a>
+
+  <footer>
+    <p>Contact: 9876543210 | Email: hayat2025@gmail.com</p>
+    <p>&copy; 2025 Hayat Book Store. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
