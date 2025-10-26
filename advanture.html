@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Adventure Books - Hayat Book Store</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f0f4f7, #d6eaf8);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2E86C1;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 36px;
+    }
+
+    .book-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .book {
+      background-color: white;
+      border-left: 5px solid #3498DB;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .book:hover {
+      transform: scale(1.03);
+    }
+
+    .book h3 {
+      margin: 0 0 10px;
+      color: #1A5276;
+    }
+
+    .book p {
+      margin: 5px 0;
+      font-size: 14px;
+      color: #34495E;
+    }
+
+    .book .price {
+      font-weight: bold;
+      color: #D35400;
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #2E86C1;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    a.back-link {
+      display: block;
+      text-align: center;
+      margin: 20px 0;
+      text-decoration: none;
+      font-weight: bold;
+      color: #2E86C1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Adventure Books</h1>
+    <p>Discover thrilling tales full of action, courage, and mystery!</p>
+  </header>
+
+  <div class="book-grid">
+    <div class="book">
+      <h3>Into the Wild</h3>
+      <p>Author: Jon Krakauer</p>
+      <p>A gripping story of self-discovery and survival in the Alaskan wilderness.</p>
+      <p class="price">Price: ₹399</p>
+    </div>
+    <div class="book">
+      <h3>Life of Pi</h3>
+      <p>Author: Yann Martel</p>
+      <p>An epic journey of a boy stranded at sea with a Bengal tiger.</p>
+      <p class="price">Price: ₹340</p>
+    </div>
+    <div class="book">
+      <h3>The Hobbit</h3>
+      <p>Author: J.R.R. Tolkien</p>
+      <p>A thrilling fantasy quest across Middle-earth with Bilbo Baggins.</p>
+      <p class="price">Price: ₹450</p>
+    </div>
+    <div class="book">
+      <h3>The Call of the Wild</h3>
+      <p>Author: Jack London</p>
+      <p>A dog's survival and adventure in the harsh Yukon wilderness.</p>
+      <p class="price">Price: ₹299</p>
+    </div>
+    <div class="book">
+      <h3>Twenty Thousand Leagues Under the Sea</h3>
+      <p>Author: Jules Verne</p>
+      <p>Join Captain Nemo in a submarine voyage filled with oceanic wonders.</p>
+      <p class="price">Price: ₹375</p>
+    </div>
+    <div class="book">
+      <h3>Treasure Island</h3>
+      <p>Author: Robert Louis Stevenson</p>
+      <p>A classic pirate adventure full of treasure maps and mutiny.</p>
+      <p class="price">Price: ₹320</p>
+    </div>
+    <div class="book">
+      <h3>Robinson Crusoe</h3>
+      <p>Author: Daniel Defoe</p>
+      <p>The tale of a castaway surviving alone on a deserted island.</p>
+      <p class="price">Price: ₹310</p>
+    </div>
+    <div class="book">
+      <h3>Gulliver's Travels</h3>
+      <p>Author: Jonathan Swift</p>
+      <p>A satirical adventure through strange and exotic lands.</p>
+      <p class="price">Price: ₹330</p>
+    </div>
+    <div class="book">
+      <h3>Journey to the Center of the Earth</h3>
+      <p>Author: Jules Verne</p>
+      <p>A bold expedition deep into the Earth’s unknown core.</p>
+      <p class="price">Price: ₹360</p>
+    </div>
+    <div class="book">
+      <h3>The Lost World</h3>
+      <p>Author: Arthur Conan Doyle</p>
+      <p>An expedition discovers a hidden land of prehistoric creatures.</p>
+      <p class="price">Price: ₹295</p>
+    </div>
+    <div class="book">
+      <h3>The Adventures of Huckleberry Finn</h3>
+      <p>Author: Mark Twain</p>
+      <p>A young boy's river journey of friendship and freedom.</p>
+      <p class="price">Price: ₹340</p>
+    </div>
+    <div class="book">
+      <h3>Hatchet</h3>
+      <p>Author: Gary Paulsen</p>
+      <p>A teenager survives alone in the Canadian wilderness with only a hatchet.</p>
+      <p class="price">Price: ₹280</p>
+    </div>
+    <div class="book">
+      <h3>The Martian</h3>
+      <p>Author: Andy Weir</p>
+      <p>A stranded astronaut fights to survive on Mars using science and wit.</p>
+      <p class="price">Price: ₹410</p>
+    </div>
+    <div class="book">
+      <h3>Wild</h3>
+      <p>Author: Cheryl Strayed</p>
+      <p>A woman hikes 1,000 miles to heal after personal tragedy.</p>
+      <p class="price">Price: ₹370</p>
+    </div>
+    <div class="book">
+      <h3>The River</h3>
+      <p>Author: Peter Heller</p>
+      <p>A wilderness canoe trip turns into a suspenseful fight for survival.</p>
+      <p class="price">Price: ₹360</p>
+    </div>
+    <div class="book">
+      <h3>White Fang</h3>
+      <p>Author: Jack London</p>
+      <p>The story of a wild wolf-dog and his journey to trust humanity.</p>
+      <p class="price">Price: ₹310</p>
+    </div>
+    <div class="book">
+      <h3>On the Road</h3>
+      <p>Author: Jack Kerouac</p>
+      <p>A wild, poetic ride across 1950s America in search of meaning.</p>
+      <p class="price">Price: ₹390</p>
+    </div>
+    <div class="book">
+      <h3>The Beach</h3>
+      <p>Author: Alex Garland</p>
+      <p>A search for paradise leads to thrilling and dark discoveries.</p>
+      <p class="price">Price: ₹350</p>
+    </div>
+    <div class="book">
+      <h3>Sahara</h3>
+      <p>Author: Clive Cussler</p>
+      <p>A thrilling desert mystery packed with adventure and danger.</p>
+      <p class="price">Price: ₹370</p>
+    </div>
+    <div class="book">
+      <h3>The Swiss Family Robinson</h3>
+      <p>Author: Johann David Wyss</p>
+      <p>A shipwrecked family's self-reliant life on a tropical island.</p>
+      <p class="price">Price: ₹345</p>
+    </div>
+  </div>
+
+  <a href="index.html" class="back-link">⬅ Back to Home</a>
+
+  <footer>
+    <p>Contact: 9876543210 | Email: hayat2025@gmail.com</p>
+    <p>&copy; 2025 Hayat Book Store. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
