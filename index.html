@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hayat Book Store</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #2E86C1;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    nav {
+      background-color: #1B4F72;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .section-title {
+      text-align: center;
+      padding: 40px 10px 20px;
+      font-size: 28px;
+      color: #2E4053;
+    }
+
+    .categories {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    .category {
+      background-color: #D4E6F1;
+      padding: 12px 25px;
+      border-radius: 20px;
+      font-weight: bold;
+      transition: background 0.3s;
+      cursor: pointer;
+    }
+
+    .category:hover {
+      background-color: #85C1E9;
+    }
+
+    .book-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .book {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 15px;
+      transition: transform 0.3s;
+    }
+
+    .book:hover {
+      transform: translateY(-8px);
+    }
+
+    .book img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .book h3 {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #154360;
+    }
+
+    .book p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+
+    footer {
+      background-color: #2E86C1;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hayat Book Store</h1>
+    <p>Your gateway to endless knowledge and imagination</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Categories</a>
+    <a href="#">Bestsellers</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="section-title">Explore Book Categories</div>
+  <div class="categories">
+  <a href="adventure.html" class="category">Adventure</a>
+  <a href="fiction.html" class="category">Fiction</a>
+  <a href="biography.html" class="category">Biography</a>
+  <a href="poetry.html" class="category">Poetry</a>
+  <a href="religious.html" class="category">Religious</a>
+  <a href="kids.html" class="category">Kids</a>
+</div>
+
+  <div class="section-title">Featured Books</div>
+  <section class="book-grid">
+    <div class="book">
+      <img src="https://via.placeholder.com/200x250" alt="Book Cover">
+      <h3>The Alchemist</h3>
+      <p>by Paulo Coelho</p>
+      <p>Price: ₹399</p>
+    </div>
+    <div class="book">
+      <img src="https://via.placeholder.com/200x250" alt="Book Cover">
+      <h3>Wings of Fire</h3>
+      <p>by A.P.J. Abdul Kalam</p>
+      <p>Price: ₹250</p>
+    </div>
+    <div class="book">
+      <img src="https://via.placeholder.com/200x250" alt="Book Cover">
+      <h3>Harry Potter</h3>
+      <p>by J.K. Rowling</p>
+      <p>Price: ₹599</p>
+    </div>
+    <div class="book">
+      <img src="https://via.placeholder.com/200x250" alt="Book Cover">
+      <h3>The Prophet</h3>
+      <p>by Kahlil Gibran</p>
+      <p>Price: ₹299</p>
+    </div>
+    <div class="book">
+      <img src="https://via.placeholder.com/200x250" alt="Book Cover">
+      <h3>Ramayana</h3>
+      <p>by Valmiki</p>
+      <p>Price: ₹349</p>
+    </div>
+    <div class="book">
+      <img src="https://via.placeholder.com/200x250" alt="Book Cover">
+      <h3>Steve Jobs</h3>
+      <p>by Walter Isaacson</p>
+      <p>Price: ₹499</p>
+    </div>
+    <div class="book">
+      <img src="https://via.placeholder.com/200x250" alt="Book Cover">
+      <h3>Adventures of Tintin</h3>
+      <p>by Hergé</p>
+      <p>Price: ₹275</p>
+    </div>
+    <div class="book">
+      <img src="https://via.placeholder.com/200x250" alt="Book Cover">
+      <h3>Diary of a Wimpy Kid</h3>
+      <p>by Jeff Kinney</p>
+      <p>Price: ₹320</p>
+    </div>
+    <div class="book">
+      <img src="https://via.placeholder.com/200x250" alt="Book Cover">
+      <h3>The Holy Quran</h3>
+      <p>Translation by Yusuf Ali</p>
+      <p>Price: ₹450</p>
+    </div>
+    <div class="book">
+      <img src="https://via.placeholder.com/200x250" alt="Book Cover">
+      <h3>The Fault in Our Stars</h3>
+      <p>by John Green</p>
+      <p>Price: ₹280</p>
+    </div>
+    <!-- Add 5 more if needed -->
+  </section>
+
+  <footer>
+    <p>Contact: 9876543210 | Email: hayat2025@gmail.com</p>
+    <p>&copy; 2025 Hayat Book Store. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
