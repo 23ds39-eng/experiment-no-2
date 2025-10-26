@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Religious Books - Hayat Book Store</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fffaf0, #e6ffe6);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2E8B57;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .book-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      padding: 40px;
+    }
+
+    .book {
+      background-color: #f9fff9;
+      border-left: 6px solid #3CB371;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .book:hover {
+      transform: translateY(-5px);
+    }
+
+    .book h3 {
+      margin-top: 0;
+      color: #006400;
+    }
+
+    .book p {
+      margin: 6px 0;
+      font-size: 15px;
+      color: #2F4F4F;
+    }
+
+    .book .price {
+      font-weight: bold;
+      color: #228B22;
+    }
+
+    footer {
+      background-color: #2E8B57;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    a.back-link {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #006400;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Religious Books</h1>
+    <p>Enlighten your soul with sacred scriptures and teachings.</p>
+  </header>
+
+  <div class="book-grid">
+    <div class="book">
+      <h3>The Holy Quran</h3>
+      <p>Author: Translation by Abdullah Yusuf Ali</p>
+      <p>English translation with commentary of the Islamic holy book.</p>
+      <p class="price">Price: ₹300</p>
+    </div>
+    <div class="book">
+      <h3>The Bhagavad Gita</h3>
+      <p>Author: Translation by Eknath Easwaran</p>
+      <p>Philosophical and spiritual classic from Indian scriptures.</p>
+      <p class="price">Price: ₹280</p>
+    </div>
+    <div class="book">
+      <h3>The Bible</h3>
+      <p>Author: King James Version</p>
+      <p>The sacred scripture of Christianity with historical context.</p>
+      <p class="price">Price: ₹350</p>
+    </div>
+    <div class="book">
+      <h3>Guru Granth Sahib (Selections)</h3>
+      <p>Author: Translation by Khushwant Singh</p>
+      <p>Selected hymns and teachings of Sikhism's holy scripture.</p>
+      <p class="price">Price: ₹400</p>
+    </div>
+    <div class="book">
+      <h3>The Dhammapada</h3>
+      <p>Author: Buddha (Translation by Eknath Easwaran)</p>
+      <p>Collection of Buddha’s essential teachings on wisdom.</p>
+      <p class="price">Price: ₹250</p>
+    </div>
+    <div class="book">
+      <h3>The Tao Te Ching</h3>
+      <p>Author: Lao Tzu</p>
+      <p>Ancient Chinese text on harmony and wisdom.</p>
+      <p class="price">Price: ₹220</p>
+    </div>
+    <div class="book">
+      <h3>The Book of Mirdad</h3>
+      <p>Author: Mikhail Naimy</p>
+      <p>Mystical teachings and spiritual awakening in poetic form.</p>
+      <p class="price">Price: ₹290</p>
+    </div>
+    <div class="book">
+      <h3>The Upanishads</h3>
+      <p>Author: Various (Trans. by Juan Mascaró)</p>
+      <p>Core spiritual texts of Hinduism that explore ultimate reality.</p>
+      <p class="price">Price: ₹310</p>
+    </div>
+    <div class="book">
+      <h3>Sahih al-Bukhari</h3>
+      <p>Author: Imam Bukhari</p>
+      <p>Authentic collection of sayings and traditions of Prophet Muhammad (PBUH).</p>
+      <p class="price">Price: ₹450</p>
+    </div>
+    <div class="book">
+      <h3>The Life of the Prophet Muhammad</h3>
+      <p>Author: Ibn Kathir</p>
+      <p>Detailed biography of the final prophet of Islam.</p>
+      <p class="price">Price: ₹380</p>
+    </div>
+    <div class="book">
+      <h3>The Torah</h3>
+      <p>Author: Traditional Jewish Texts</p>
+      <p>First five books of the Hebrew Bible, central to Judaism.</p>
+      <p class="price">Price: ₹370</p>
+    </div>
+    <div class="book">
+      <h3>The Imitation of Christ</h3>
+      <p>Author: Thomas à Kempis</p>
+      <p>One of Christianity’s most influential devotional works.</p>
+      <p class="price">Price: ₹260</p>
+    </div>
+    <div class="book">
+      <h3>Inner Engineering</h3>
+      <p>Author: Sadhguru</p>
+      <p>Modern spiritual guide for self-transformation and well-being.</p>
+      <p class="price">Price: ₹340</p>
+    </div>
+    <div class="book">
+      <h3>Conversations with God</h3>
+      <p>Author: Neale Donald Walsch</p>
+      <p>Spiritual dialogue on life, God, and purpose.</p>
+      <p class="price">Price: ₹330</p>
+    </div>
+    <div class="book">
+      <h3>Jesus Calling</h3>
+      <p>Author: Sarah Young</p>
+      <p>Daily devotional written from Jesus’ point of view.</p>
+      <p class="price">Price: ₹310</p>
+    </div>
+    <div class="book">
+      <h3>Man's Search for Meaning</h3>
+      <p>Author: Viktor E. Frankl</p>
+      <p>Philosophical and spiritual reflection from a Holocaust survivor.</p>
+      <p class="price">Price: ₹350</p>
+    </div>
+  </div>
+
+  <a href="index.html" class="back-link">⬅ Back to Home</a>
+
+  <footer>
+    <p>Contact: 9876543210 | Email: hayat2025@gmail.com</p>
+    <p>&copy; 2025 Hayat Book Store. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
